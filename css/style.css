@@ -14,6 +14,9 @@ header{
     text-align: center;
     padding: 1em;
 }
+.text-titulo{
+    margin-top: 10px;
+}
 
 footer{
     background-color: black;
@@ -39,16 +42,19 @@ footer{
     text-align: center !important;
     margin-left: 25% !important;
     margin-right: 25% !important;
-    margin-top: 1% !important;
+    margin-top: 5% !important;
     margin-bottom: 15% !important;
 }
 
 .img-icone{
     width: 100% !important;
+    margin-top: 4px;
+    margin-right: 2em;
 }
 
 .txt-icone{
-    font-size: 300% !important;
+    font-size: 200% !important;
+    margin-top: 1em;
 }
 
 a{
@@ -58,10 +64,11 @@ a{
 
 @media (min-width: 200px) and (max-width: 768px){
     .img-icone{
-        width: 250% !important;
+        width: 200% !important;
+        margin-top: 45%; 
     }
     .txt-icone{
-    font-size: 220% !important;
+        font-size: 200% !important;
     }
     .conteudo{
         width: 130% !important;
